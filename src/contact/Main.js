@@ -1,6 +1,6 @@
 import React from "react";
 import "../core/style.css"
-
+import img1 from "../core/images/img1.jpg"
 const Main = () => {
   return (
     <div>
@@ -8,7 +8,7 @@ const Main = () => {
         <div class="conteiner">
           <div class="row">
           <div class="col-md-6 text-center">
-              <img src="images/contact.svg" class="img-fluid contactimage" />
+              <img src={img1} className="img-fluid contactimage" />
             </div>
             <div class="col-lg-5  p-5">
               <h2 class="text-center display-4">Fill this form</h2>

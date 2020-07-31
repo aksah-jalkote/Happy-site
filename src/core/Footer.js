@@ -42,7 +42,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <Socialmedia /> 
       <br/>
         <div className="container">
           <p className="text-center text-white">

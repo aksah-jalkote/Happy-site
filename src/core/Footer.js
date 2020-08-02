@@ -29,7 +29,7 @@ const Footer = () => {
               <i className="fa fa-envelope fas" aria-hidden="true"></i>xyz@gmail.com
             </p>
           </div>
-          <div className="col-md-3">
+          {/* <div className="col-md-3">
             <p className="text-white">
               <b>SUBSCRIBE NEWSLETTER</b>
             </p>
@@ -39,7 +39,7 @@ const Footer = () => {
             <button className="btn btn-md" type="submit">
               SUBMIT
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <br/>

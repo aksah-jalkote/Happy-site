@@ -4,6 +4,8 @@ import Menu from '../core/Menu'
 import Main from './Main'
 import Social from '../components/Social'
 import Footer from '../core/Footer'
+import Newsletter from '../components/NewsLetter'
+
 
 
 
@@ -17,7 +19,7 @@ const Contact = () => {
              />  
              <Main/>
              <Social/>
-             
+             <Newsletter/>
              <Footer/>
              
                

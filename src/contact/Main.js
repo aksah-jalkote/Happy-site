@@ -3,15 +3,10 @@ import "../core/style.css"
 import img1 from "../core/images/img1.jpg"
 const Main = () => {
   return (
-    <div>
-      <section id="Contactme">
-        <div class="conteiner">
+    <div id="Contactme">
           <div class="row">
-          <div class="col-md-6 text-center">
-              <img src={img1} className="img-fluid contactimage" />
-            </div>
-            <div class="col-lg-5  p-5">
-              <h2 class="text-center display-4">Fill this form</h2>
+            <div class="col-md-6 offset-sm-3 p-5 text-left">
+              <h1 className="display text-center">Fill this form</h1>
               <form action="" class="mt-5">
                 <div class="form-group">
                   <label for="" class="text-dark">
@@ -55,11 +50,9 @@ const Main = () => {
                 </div>
               </form>
             </div>
-
           </div>
         </div>
-      </section>
-    </div>
+    
   );
 };
 

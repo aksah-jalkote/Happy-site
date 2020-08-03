@@ -127,9 +127,11 @@
   color: #fff;
 }
 
-#Contactme {
-  background: #f9f8fa;
-  margin-right: 0px;
+.form-control {
+  height: 50px;
+  border-radius: 0px;
+  box-sizing: border-box;
+  
 }
 
 .contactimage {
@@ -137,10 +139,6 @@
   padding: 50px;
 }
 
-#newsletter{
-  padding: 80px;
-  background: #f9f8fa;
-  margin-bottom: 0px;
-  
-  
-}
+
+
+

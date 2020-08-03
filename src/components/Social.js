@@ -1,10 +1,11 @@
 import React from 'react';
 import "../core/style.css"
+import "./components.css";
 
 const Social = () => {
   return (
     <div>
-      <section id="footer">
+      <section id="social">
         <div class="container">
           <div class="row text-white">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">

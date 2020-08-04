@@ -1,26 +1,20 @@
-#Jumbotron{
-    background-image: linear-gradient(to right, #462057, #100118);
-    color: white;
-    padding: 50px;
-  }
-
-#social{
+#Jumbotron {
   background-image: linear-gradient(to right, #462057, #100118);
-    
+  color: white;
+  padding: 50px;
+}
+
+#social {
+  background-image: linear-gradient(to right, #462057, #100118);
   padding: 10px;
   margin-left: 300px;
   margin-right: 300px;
-  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5) ;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50px;
-  margin-bottom: 50px;
-  
-
- 
-
-
-
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
-#social .fas{
+#social .fas {
   margin-right: 8px;
   font-size: 25px;
   height: 40px;
@@ -28,15 +22,13 @@
   padding-top: 7px;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5) ;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
 
   background-image: linear-gradient(to right, #c213da, #710ca3);
-
 }
 
-#newsletter{
+#newsletter {
   padding: 80px;
- 
- margin-bottom: 0px;
- 
+
+  margin-bottom: 0px;
 }

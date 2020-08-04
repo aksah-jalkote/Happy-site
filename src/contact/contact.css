@@ -5,7 +5,24 @@
 }
 
 #Contactme {
-  background: #f9f8fa;
+  
+  display: inline-flex;
+  width: 100%;
+  padding: 20px;
+  margin-top: 70px;
+}
+#Contactme form {
+  margin-left: 50px;
+}
+.form-control{
+  width: 700px;
+}
+
+#Contactme img {
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 100px;
+ 
 }
 
 #Contactme h1 {
@@ -13,16 +30,13 @@
   font-size: 50px;
   background: #333945;
   padding: 5px;
-  border-radius: 10px;
-
-  margin-top: 50px;
-  color: rgb(0, 0, 0);
+  /* border-radius: 10px; */
+  color: #ffffff
 }
 
 #Contactme button {
   border-radius: 8px;
   color: #000;
   box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(to right, #c213da, #710ca3);
   font-size: 20px;
 }

@@ -3,6 +3,13 @@
   padding: 0;
   margin: 0;
 }
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #nav {
   position: fixed;
   left: 0;
@@ -94,7 +101,7 @@
 
 /* ----footer----- */
 #footer {
-  background-image: linear-gradient(to right, #462057, #100118);
+  background-image: linear-gradient(to right, #000000, #000000);
   padding: 40px;
 }
 
@@ -127,17 +134,7 @@
   color: #fff;
 }
 
-.form-control {
-  height: 50px;
-  border-radius: 0px;
-  box-sizing: border-box;
-  
-}
 
-.contactimage {
-  margin-top: 100px;
-  padding: 50px;
-}
 
 
 

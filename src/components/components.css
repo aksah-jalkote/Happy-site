@@ -8,12 +8,13 @@
   background-image: linear-gradient(to right, #462057, #100118);
     
   padding: 10px;
-  margin-left: 200px;
-  margin-right: 200px;
-  box-shadow: 20px 20px 50px #cdc1e9, 
-            -30px -30px 60px #cacaca;
+  margin-left: 300px;
+  margin-right: 300px;
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5) ;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  
 
-  border-radius: 20px;
  
 
 
@@ -27,13 +28,15 @@
   padding-top: 7px;
   text-align: center;
   border-radius: 5px;
-  background-image: linear-gradient(to right, #462057, #100118);
+  box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.5) ;
+
+  background-image: linear-gradient(to right, #c213da, #710ca3);
+
 }
 
 #newsletter{
   padding: 80px;
  
-  margin-bottom: 0px;
-  
-  
+ margin-bottom: 0px;
+ 
 }

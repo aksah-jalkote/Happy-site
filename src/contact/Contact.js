@@ -13,13 +13,13 @@ const Contact = () => {
     return (
         <div>
             <Menu/>
-            <Jumbotron 
+            {/* <Jumbotron 
             title="Contact Us"
             description="Contact us we are here for your security"
-             />  
+             />   */}
              <Main/>
              <Social/>
-             <Newsletter/>
+           
              <Footer/>
              
                

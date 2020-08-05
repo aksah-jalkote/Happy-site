@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact.css';
-import secure3 from '../core/images/secure3.svg';
+import photu from "./photu.svg"
 
 const Main = () => {
   return (
@@ -37,7 +37,7 @@ const Main = () => {
           </button>
         </div>
       </form>
-      {/* <img src={secure3} className="img-fluid mt-5" /> */}
+      <img src={photu} className="img-fluid mt-5"/>
     </div>
   );
 };
